@@ -1,0 +1,97 @@
+@import '_color';
+
+.leave-page {
+  & > .leave-list {
+    /* Box-model */
+    display: flex;
+
+    /* Flexible Box */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  & .pending-list {
+    /* Box-model */
+    display: flex;
+
+    /* Flexible Box */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  & table {
+    /* Box-model */
+    width: 80vw;
+  }
+
+  & thead tr {
+    /* Visual */
+    background-color: $monokai-lavender;
+    border: 1px double $monokai-lavender;
+  }
+
+  & th {
+    /* Box-model */
+    width: 20%;
+    padding: 0.8vh 0;
+
+    /* Typography */
+    color: $monokai-night;
+
+    /* Visual */
+    border: 1px solid $monokai-night;
+  }
+
+  & td {
+    /* Box-model */
+    padding: 0.8vh 0;
+
+    /* Typography */
+    color: $monokai-theresia;
+  }
+
+  & tbody tr {
+    /* Visual */
+    border: 1px solid $monokai-night;
+    border-bottom: 1px solid $monokai-silver;
+
+    &:hover {
+      /* Visual */
+      background: #414339;
+      border: 1px solid $monokai-silver;
+    }
+  }
+
+  & .chosen, .chosen:hover {
+    /* Visual */
+    background: rgba(174, 129, 255, 0.2);
+    border: 1px double $monokai-lavender;
+  }
+
+  & .chosen td {
+    /* Typography */
+    color: $monokai-clementine;
+  }
+
+  & .outdated:hover {
+    /* Visual */
+    background: $monokai-night;
+    border-right: 1px solid $monokai-night;
+    border-left: 1px solid $monokai-night;;
+  }
+
+  & .outdated td{
+    /* Typography */
+    color: $monokai-silver;
+  }
+
+  & .chosen-leave {
+    /* Box-model */
+    width: 80vw;
+    margin-top: 2vh;
+
+    /* Visual */
+    border: 2px solid $monokai-lavender;
+    border-radius: 1vw;
+  }
+}

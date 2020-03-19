@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login renders login page correctly 1`] = `
+<div
+  className="login-page"
+>
+  <h1>
+    Too Sick to Work
+  </h1>
+  <div
+    className="login-container"
+  >
+    <h2>
+      使用者名稱 Username：
+    </h2>
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <h2>
+      密碼 Password：
+    </h2>
+    <input
+      onChange={[Function]}
+      type="password"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      登入 Login
+    </button>
+  </div>
+  
+</div>
+`;

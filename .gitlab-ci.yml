@@ -1,0 +1,16 @@
+image: node:lts
+
+cache:
+  paths:
+    - node_modules/
+
+test:
+    script:
+      - npm install
+      - npm run lint
+      - npm run transpile
+      - npm test
+      - cd ui/
+      - npm install
+      - npm run lint
+      - npm test

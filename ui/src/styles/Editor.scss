@@ -1,0 +1,19 @@
+@import '_color';
+
+.user-adder, .leave-adder, .leave-editor {
+  /* Box-model */
+  width: 80vw;
+  margin-top: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 0;
+
+  /* Visual */
+  border: 2px solid $monokai-lavender;
+  border-radius: 1vw;
+  box-sizing: border-box;
+
+  & input {
+    /* Box-model */
+    margin: 0 1vw 2vh 0;
+  }
+}

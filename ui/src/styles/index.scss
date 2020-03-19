@@ -1,0 +1,100 @@
+@import '_color';
+
+* {
+  /* Typography */
+  font-family: Futura, sans-serif;
+  color: $monokai-light;
+  text-align: center;
+
+  #root {
+    /* Positioning */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Box-model */
+    width: 100vw;
+    height: 100vh;
+
+    /* Visual */
+    background-color: $monokai-night;
+  }
+
+  & button {
+    /* Box-model */
+    height: 4vh;
+    margin: 2vh;
+
+    /* Typography */
+    font-size: 1.2vw;
+    color: $monokai-chartreuse;
+
+    /* Visual */
+    background-color: $monokai-night;
+    border-color: $monokai-silver;
+    border-radius: 1vh;
+  }
+
+  & a {
+    /* Box-model */
+    display: inline-block;
+    margin: 2vh;
+
+    /* Typography */
+    text-decoration: none;
+
+    & button {
+      /* Box-model */
+      margin: 0;
+
+      /* Typography */
+      font-size: 1.2vw;
+    }
+  }
+
+  & h1 {
+    /* Typography */
+    color: $monokai-cyan;
+  }
+
+  & input {
+    /* Typography */
+    font-size: 1.2vw;
+
+    /* Visual */
+    background-color: $monokai-night;
+  }
+
+  & table {
+    /* Box-model */
+    margin-bottom: 2vh;
+
+    /* Typography */
+    font-size: 1.2vw;
+
+    /* Visual */
+    border-collapse: collapse;
+  }
+
+  & span {
+    /* Typography */
+    font-size: 1.2vw;
+    color: $monokai-clementine;
+  }
+
+  & select {
+    /* Box-model */
+    margin: 0 1vw 2vh 0;
+
+    /* Typography */
+    font-size: 1.2vw;
+
+    /* Visual */
+    background-color: $monokai-night;
+  }
+
+  & > .error-message {
+    /* Typography */
+    color: $monokai-magenta;
+  }
+}

@@ -1,0 +1,45 @@
+@import '_color';
+
+.user-page {
+  & > .user-list {
+    /* Box-model */
+    display: flex;
+
+    /* Flexible Box */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  & table {
+    /* Box-model */
+    width: 40vw;
+  }
+
+  & th {
+    /* Box-model */
+    padding: 0.8vh 0;
+
+    /* Box-model */
+    width: 50%;
+
+    /* Typography */
+    color: $monokai-night;
+
+    /* Visual */
+    background-color: $monokai-lavender;
+    border: 2px solid $monokai-night;
+  }
+
+  & td {
+    /* Box-model */
+    padding: 0.8vh 0;
+
+    /* Typography */
+    color: $monokai-theresia;
+  }
+
+  & tr {
+    /* Visual */
+    border-bottom: 1px solid $monokai-silver;
+  }
+}

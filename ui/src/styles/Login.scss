@@ -1,0 +1,21 @@
+@import '_color';
+
+.login-page {
+  & > .login-container {
+    /* Box-model */
+    display: flex;
+
+    /* Flexible Box */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  & > .hello-container {
+    /* Box-model */
+    display: flex;
+
+    /* Flexible Box */
+    flex-direction: column;
+    align-items: center;
+  }
+}

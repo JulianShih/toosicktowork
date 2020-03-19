@@ -1,0 +1,43 @@
+{
+  "name": "toosicktowork",
+  "version": "0.0.1",
+  "description": "A Leave Request API",
+  "homepage": "https://gitlab.com/arisan-boot-camp/toosicktowork#readme",
+  "bugs": {
+    "url": "https://gitlab.com/arisan-boot-camp/toosicktowork/issues"
+  },
+  "license": "UNLICENSED",
+  "contributors": [
+    "Antonina Shih <antoninas@arisan.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/arisan-boot-camp/toosicktowork.git"
+  },
+  "scripts": {
+    "start": "node ./lib/launch.js",
+    "lint": "eslint .",
+    "transpile": "babel ./src -d ./lib",
+    "test": "nyc mocha --exit",
+    "test-cat": "nyc mocha --reporter nyan --exit"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "babel-preset-latest-node": "^3.2.1",
+    "chai": "^4.2.0",
+    "eslint": "~6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  },
+  "engines": {
+    "node": "^10.16.3"
+  }
+}
