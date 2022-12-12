@@ -22,7 +22,7 @@
     "test-cat": "nyc mocha --reporter nyan --exit"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.3.2",
     "supertest": "^4.0.2"
   },
